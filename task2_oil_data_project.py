@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("c:/Users/z004zu1u/Desktop/NLP/task1/oil.csv")
+df = pd.read_csv("oil.csv")
 
 # df['Weekday'] = df['Date'].str.split().str[0] 
 weekly_analysis = df.groupby("Weekday").agg({

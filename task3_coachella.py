@@ -13,7 +13,7 @@ nltk.download('stopwords')
 
 
 # Load data
-df = pd.read_csv('task1/coachella.csv', encoding='latin1')
+df = pd.read_csv('coachella.csv', encoding='latin1')
 # print(df[['text']].head())
 
 # Hashtag and email
